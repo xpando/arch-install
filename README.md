@@ -27,9 +27,9 @@ ip a
 First source the env config for the host being installed
 
 ```shell
-source host-beebox.env
-source host-corsairone.env
-source host-varch.env
+export $(envsubst < host-beebox.env)
+export $(envsubst < host-corsairone.env)
+export $(envsubst < host-varch.env)
 ```
 
 Partition the disk(s)
