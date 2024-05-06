@@ -5,6 +5,8 @@ Boot the arch installation media
 Clone git repo with installation configuration and scripts
 
 ```shell
+pacman -Sy
+pacman -S git
 git clone https://github.com/xpando/arch-install.git
 ```
 
