@@ -36,11 +36,6 @@ chattr +C /mnt/@swap
 
 umount /mnt
 
-if [ "$TARGET_ENCRYPT" = true ]; then
-	cryptsetup luksOpen $TARGET_BTRFS_PART archlinux
-	TARGET_BTRFS_PART=/dev/mapper/archlinux
-fi
-
 # Mount the root volume
 mount -o "$TARGET_MOUNTOPTS,subvol=@" $TARGET_BTRFS_PART /mnt
 
