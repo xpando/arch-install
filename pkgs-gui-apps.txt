@@ -1,0 +1,10 @@
+1password
+1password-cli
+alacritty
+brave-bin
+discord
+firefox
+jetbrains-toolbox
+neovide
+steam
+vlc

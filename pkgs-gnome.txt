@@ -1,0 +1,4 @@
+gnome
+folderpreview
+webp-pixbuf-loader
+gnome-shell-extension-appindicator

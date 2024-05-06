@@ -1,0 +1,43 @@
+atuin       # better shell history
+bandwhich   # bandwidth usage by process
+bat         # cat with syntax highlighting
+btop        # better top
+ctop        # top for containers
+direnv      # per-directory environment variables
+dmidecode   # hardware info
+docker      # container runtime
+dog         # DNS client
+duf         # disk usage
+dust        # du with more intuitive output
+eza         # better ls
+fasd        # quick access to files and directories
+fd          # find replacement
+fzf         # fuzzy finder
+git-delta   # git diff with syntax highlighting
+go-swagger  # swagger codegen
+gum         # a tool for glamorous shell scripts
+htop        # better top
+hwinfo      # hardware info
+inxi        # hardware info
+jless       # less with syntax highlighting
+jq          # json processor
+just        # task runner
+lazygit     # git UI
+less        # pager
+lnav        # log file viewer
+lua         # scripting language
+mise-bin    # development tool and runtime version manager (compatible with asdf plugins)
+fastfetch   # system info
+neovim      # preferred text editor
+nvtop       # better top w/ GPU support
+onefetch    # git repo summary
+ripgrep     # grep replacement
+starship    # shell prompt
+stow        # symlink farm manager (used for keeping dotfiles in a git repo)
+tmux        # terminal multiplexer
+tokei       # code statistics
+unarchiver  # archive extractor
+unzip       # archive extractor
+zellij      # terminal multiplexer
+zip         # archive compressor
+zoxide      # cd replacement, quickly jump to frequently used directories
