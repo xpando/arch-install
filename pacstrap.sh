@@ -31,7 +31,7 @@ PKGS=(
 )
 
 # Include CPU micro-code package for the CPU this script is running on
-CPU_NAME=$(lscpu | sed -nr '/Model name/ s/.*:\s*(\w+).*/\1/p' | tr '[:upper:]' '[:lower:]')
+CPU_NAME=$(lscpu | sed -nr 's/^Model name:.*\s*(Intel|AMD).*/\1/p' | tr '[:upper:]' '[:lower:]')
 [[ ! $CPU_NAME =~ ^(intel|amd)$ ]] && echo "Unexpected CPU name: $CPU_NAME" && exit 1
 
 echo "Including CPU micro-code package: $CPU_NAME-ucode"
