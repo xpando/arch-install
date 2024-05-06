@@ -47,7 +47,7 @@ mount -o "$TARGET_MOUNTOPTS,subvol=@" $TARGET_BTRFS_PART /mnt
 # Create dirs in the root volume that we will mount the rest of the volumes to
 mkdir -p /mnt/{boot,home,tmp,var/log,var/cache/pacman/pkg,swap,.snapshots}
 
-mount -o "$TARGET_MOUNTOPTS,subvol=@home" $BTARGET_TRFS_PART /mnt/home
+mount -o "$TARGET_MOUNTOPTS,subvol=@home" $TARGET_BTRFS_PART /mnt/home
 mount -o "$TARGET_MOUNTOPTS,subvol=@tmp" $TARGET_BTRFS_PART /mnt/tmp
 mount -o "$TARGET_MOUNTOPTS,subvol=@log" $TARGET_BTRFS_PART /mnt/var/log
 mount -o "$TARGET_MOUNTOPTS,subvol=@pkg" $TARGET_BTRFS_PART /mnt/var/cache/pacman/pkg
