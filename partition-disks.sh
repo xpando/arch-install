@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+set -e
+
 # Partition system installation disk
 parted -s $TARGET_DISK \
 	mklabel gpt \
