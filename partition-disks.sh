@@ -55,3 +55,6 @@ swapon /mnt/swap/swapfile
 
 # Mount EFI boot partition
 mount $TARGET_EFI_PART /mnt/boot
+
+# Generate the file system table for the currently mounted target
+genfstab -U /mnt >>/mnt/etc/fstab
