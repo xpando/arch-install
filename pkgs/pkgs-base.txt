@@ -7,6 +7,7 @@ direnv      # per-directory environment variables
 dmidecode   # hardware info
 docker      # container runtime
 dog         # DNS client
+dosfstools  # tools for manipulating FAT filesystems
 duf         # disk usage
 dust        # du with more intuitive output
 eza         # better ls
@@ -27,14 +28,15 @@ less        # pager
 lnav        # log file viewer
 lua         # scripting language
 mise-bin    # development tool and runtime version manager (compatible with asdf plugins)
+mtools      # tools for manipulating FAT filesystems
 fastfetch   # system info
 neovim      # preferred text editor
-nvtop       # better top w/ GPU support
+nvtop       # top with GPU support
 onefetch    # git repo summary
 ripgrep     # grep replacement
 starship    # shell prompt
 stow        # symlink farm manager (used for keeping dotfiles in a git repo)
-tmux        # terminal multiplexer
+tailspin    # log file viewer
 tokei       # code statistics
 unarchiver  # archive extractor
 unzip       # archive extractor

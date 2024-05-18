@@ -53,7 +53,7 @@ reflector --save /etc/pacman.d/mirrorlist --protocol https --country US --sort r
 # Update package DB
 pacman -Syy
 
-# Minimal system initialation.
+# Minimal system initialization.
 # ./install-pkgs.sh can be used after first boot into the new system to complete the system setup
 ./pacstrap.sh
 
